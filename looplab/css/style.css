@@ -1,0 +1,26 @@
+body {
+  background: #333;
+  color: #fff;
+  
+}
+
+.navbar {
+  border-bottom: #008ed6 3px solid;
+  opacity: 0.8;
+}
+.home
+{
+  background: url("../img/home.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.home .op
+{
+  background: rgba(0, 0, 0, 0.584);
+  height: 100%;
+}
+.home .op .gaser
+{
+  padding: 150px 0 100px 0;
+}

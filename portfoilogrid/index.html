@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css" integrity="sha512-Velp0ebMKjcd9RiCoaHhLXkR1sFoCCWXNp6w4zj1hfMifYB5441C+sKeBl/T/Ka6NjBiRfBBQRaQq65ekYz3UQ==" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css" />
+  <link rel="stylesheet" href="css/style.css">
+  <title>Bootstrap Theme</title>
+</head>
+
+<body>
+  
+  <div class="container">
+    <div>
+      <div class="row m-0">
+        <div class="col-lg-4 p-0">
+          <img src="img/person1.jpg" class="w-100" alt="person">
+        </div>
+        <div class="col-lg-8 p-0">
+          <div class="d-flex bg-dark py-5 justify-content-around align-items-center">
+            <h2 class="display-3 text-white px-5 p-lg-0" >John Doe</h2>
+            <a href="http://twitter.com" class="text-white">
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a href="http://facebook.com" class="text-white">
+              <i class="fab fa-facebook"></i>
+            </a>
+            <a href="http://instagram.com" class="text-white">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="http://github.com" class="text-white">
+              <i class="fab fa-github"></i>
+            </a>
+          </div>
+          <div class="text-white p-3" style="background-color: black;">
+            <p class="p-0 m-0">Experienced Full Stack Web Developer</p>
+          </div>
+          <div class="d-flex flex-row text-white align-items-stretch text-center" style="overflow: hidden;">
+            <div class=" bg-primary gaseritem p-4 d-block p-lg-5"  data-toggle="collapse" data-target="#home" >
+                <i class="fas fa-home fa-2x"></i>
+                <span>Home</span>
+            </div>
+            <div class=" bg-success gaseritem p-4 p-lg-5"  data-toggle="collapse" data-target="#resume">
+              <i class="fas fa-graduation-cap fa-2x d-block"></i>
+              <span>Resume</span>
+            </div>
+            <div class="bg-warning gaseritem p-4 p-lg-5" data-toggle="collapse" data-target="#work">
+              <i class="fas fa-folder-open fa-2x d-block"></i>
+              <span>Work</span>
+            </div>
+            <div class=" bg-danger gaseritem p-4 p-lg-5" data-toggle="collapse" data-target="#con" >
+              <i class="fas fa-envelope fa-2x d-block"></i>
+              <span>Contact</span>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+    <!--home-->
+    <div id="home" class="collapse ">
+      <header class="bg-primary p-5 text-white border rounded">
+        <h2 class="mb-2 display-3">Welcome To My Page</h2>
+        <p class="mb-0 ">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil, ut!</p>
+
+      </header>
+      <div class="border rounded">
+        <div class="p-5">
+          <h2 class="mb-2">My Skills</h2>
+          <p class="mb-0 ">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil, ut!</p>
+          <hr>
+          <div class="mb-3">
+            <h3>HTML 5</h3>
+            <div class="progress">
+              <div class="progress-bar bg-success" style="width:70%"></div>
+            </div>
+          </div>
+
+          <div class="mb-3">
+            <h3>css 3</h3>
+            <div class="progress">
+              <div class="progress-bar bg-success" style="width:60%"></div>
+            </div>
+          </div>
+
+          <div class="mb-3">
+            <h3>javascript</h3>
+            <div class="progress">
+              <div class="progress-bar bg-success" style="width:50%"></div>
+            </div>
+          </div>
+          <div class="mb-3">
+            <h3>c++</h3>
+            <div class="progress">
+              <div class="progress-bar bg-success" style="width:80%"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!--REsume-->
+    <div id="resume" class="collapse">
+      <header class="bg-success p-5 text-white border rounded">
+        <h2 class="mb-2 display-3">My Resume</h2>
+        <p class="mb-0 ">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil, ut!</p>
+
+      </header>
+      <div class="border rounded">
+        <div class="p-5">
+          <header>
+            <h2>Where Have I Worked?</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque similique saepe inventore rem vitae esse.</p>
+          </header>
+          <div class="d-flex justify-content-between">
+            <div class="border rounded" style="width: 30%;">
+              <div class="p-3">
+                <h3>Devmasters</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, magnam.</p>
+                <p class="bg-dark p-2 text-white">Position: Full Stack Developer</p>
+                <p class="bg-dark p-2 text-white">Phone: (444) 444-4444</p>
+              </div>
+              <div class="p-3 bg-light">
+                <p>Dates: 2015 - 2018</p>
+              </div>
+            </div>
+
+            <div class="border rounded" style="width: 30%;">
+              <div class="p-3">
+                <h3>Devmasters</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, magnam.</p>
+                <p class="bg-dark p-2 text-white">Position: Full Stack Developer</p>
+                <p class="bg-dark p-2 text-white">Phone: (444) 444-4444</p>
+              </div>
+              <div class="p-3 bg-light">
+                <p>Dates: 2015 - 2018</p>
+              </div>
+            </div>
+
+            <div class="border rounded"style="width: 30%;">
+              <div class="p-3">
+                <h3>Devmasters</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, magnam.</p>
+                <p class="bg-dark p-2 text-white">Position: Full Stack Developer</p>
+                <p class="bg-dark p-2 text-white">Phone: (444) 444-4444</p>
+              </div>
+              <div class="p-3 bg-light">
+                <p>Dates: 2015 - 2018</p>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+  </div>
+
+  <!--work-->
+
+    <div id="work" class="collapse show">
+     
+      <header class="bg-warning p-5 text-white border rounded">
+        <h2 class="mb-2 display-3">My Work</h2>
+        <p class="mb-0 ">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil, ut!</p>
+
+      </header>
+      <div class="border rounded">
+        <div class="p-lg-5 p-1">
+          <header>
+            <h2>What Have I Built?</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque similique saepe inventore rem vitae esse.</p>
+          </header>
+          <div class="row no-gutters">
+            <div class="col-md-3">
+              <a href="2.jpg" data-toggle="lightbox">
+                <img src="2.jpg" class="img-fluid">
+              </a>
+            </div>
+            <div class="col-md-3">
+              <a href="1.jpeg" data-toggle="lightbox">
+                <img src="1.jpeg" class="img-fluid">
+              </a>
+            </div>
+            <div class="col-md-3">
+              <a href="2.jpg" data-toggle="lightbox">
+                <img src="2.jpg" class="img-fluid">
+              </a>
+            </div>
+            <div class="col-md-3">
+              <a href="1.jpeg" data-toggle="lightbox">
+                <img src="1.jpeg" class="img-fluid">
+              </a>
+            </div>
+            <div class="col-md-3">
+              <a href="2.jpg" data-toggle="lightbox">
+                <img src="2.jpg" class="img-fluid">
+              </a>
+            </div>
+            <div class="col-md-3">
+              <a href="1.jpeg" data-toggle="lightbox">
+                <img src="1.jpeg" class="img-fluid">
+              </a>
+            </div>
+            <div class="col-md-3">
+              <a href="2.jpg" data-toggle="lightbox">
+                <img src="2.jpg" class="img-fluid">
+              </a>
+            </div>
+            <div class="col-md-3">
+              <a href="1.jpeg" data-toggle="lightbox">
+                <img src="1.jpeg" class="img-fluid">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--contact-->
+    <div id="con" class="collapse ">
+      <header class="bg-danger p-5 text-white border rounded">
+        <h2 class="mb-2 display-3">Contact</h2>
+        <p class="mb-0 ">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil, ut!</p>
+
+      </header>
+      <div class="border rounded">
+        <div class="p-lg-5 p-1">
+          <header>
+            <h2>Get In Touch</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque similique saepe inventore rem vitae esse.</p>
+          </header>
+          <div class="input-group mb-3">
+            <div class="input-group-prepend ">
+              <span class="input-group-text bg-danger">
+                <i class="fas fa-user text-white"></i>
+              </span>
+            </div>
+            <input type="text" class="form-control form-control-lg bg-dark" placeholder="Name">
+          </div>
+          <div class="input-group mb-3">
+            <div class="input-group-prepend ">
+              <span class="input-group-text bg-danger">
+                <i class="fas fa-envelope text-white"></i>
+              </span>
+            </div>
+            <input type="text" class="form-control form-control-lg bg-dark" placeholder="Email">
+          </div>
+          <div class="input-group mb-3">
+            <div class="input-group-prepend ">
+              <span class="input-group-text bg-danger">
+                <i class="fas fa-envelope text-white"></i>
+              </span>
+            </div>
+            <textarea type="text" class="form-control form-control-lg bg-dark" placeholder="Your Message"></textarea>
+          </div>
+          <button class="btn btn-danger btn-lg btn-block">Submit</button>
+        </div>
+      </div>
+    </div>
+    <footer class="bg-dark m-0  p-5">
+      <button class="btn btn-outline-light">Download Resume</button>
+    </footer>
+  </div>
+
+  <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js" integrity="sha512-YibiFIKqwi6sZFfPm5HNHQYemJwFbyyYHjrr3UT+VobMt/YBo1kBxgui5RWc4C3B4RJMYCdCAJkbXHt+irKfSA==" crossorigin="anonymous"></script>
+  <script>
+    /*$('.port-item').click(function () {
+      $('.collapse').collapse('hide');
+    });
+
+    $(document).on('click', '[data-toggle="lightbox"]', function (e) {
+      e.preventDefault();
+      $(this).ekkoLightbox();
+    });
+      */
+    var items=document.querySelectorAll('.gaseritem');
+    for(var i=0;i<items.length;i++)
+    {
+      items[i].onclick=function(e)
+      {
+        
+          $('.collapse').collapse('hide');
+        
+      }
+    }
+    $(document).on('click', '[data-toggle="lightbox"]', function(event) {
+                event.preventDefault();
+                $(this).ekkoLightbox();
+            });
+  </script>
+</body>
+
+</html>

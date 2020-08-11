@@ -1,0 +1,38 @@
+img {
+  width: 100%;
+  height: 100%;
+}
+
+#main-header .port-item {
+  width: 30%;
+}
+
+.gaseritem:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.bg-black {
+  color: #fff;
+  background: #000;
+}
+.gaseritem
+  {
+    width: 25%;
+
+  }
+@media (max-width: 1000px) {
+  .port-item {
+    padding: 3em !important;
+  }
+  .gaseritem
+  {
+    height: 100px;
+  }
+  .container
+  {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+}

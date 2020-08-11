@@ -1,0 +1,45 @@
+body {
+  margin-top: 105px; }
+
+.navbar {
+  box-shadow: 2px 2px 5px #3292a6;
+  opacity: 0.9;
+  background: #fff;
+min-height: 105px; }
+  .navbar .nav-item {
+    font-size: 1.4rem;
+    padding-right: 1.4rem; }
+
+#home
+{
+  background: url("../img/mountains.jpg");
+}
+#home .op
+{
+  background: rgba(50, 146, 166, 0.8);
+}
+#meet img
+{
+  margin-top: -30%;
+  width: 7rem;
+}
+#meet .card:hover
+{
+  background-color: #3292a6; 
+  color: white;
+}
+#meet h2
+{
+  font-size: 25px;
+}
+@media (max-width: 999px)
+{
+  #home h2{
+      font-size: 4rem;
+  }
+  #meet img
+{
+  margin-top: -20%;
+  width: 7rem;
+}
+}
